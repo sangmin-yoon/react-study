@@ -1,3 +1,3 @@
 # React study
 
-## slack 테스트
+## slack테스트
