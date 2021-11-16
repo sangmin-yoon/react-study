@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve --env development"
+    "dev:gugudan": "webpack serve --config ./1.GuGudan/webpack.config.js",
+    "dev:wordrelay": "webpack serve --config ./2.WordRelay/webpack.config.js"
   },
   "repository": {
     "type": "git",
