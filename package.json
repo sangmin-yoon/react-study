@@ -5,7 +5,8 @@
   "scripts": {
     "dev:gugudan": "webpack serve --config ./1.GuGudan/webpack.config.js",
     "dev:wordrelay": "webpack serve --config ./2.WordRelay/webpack.config.js",
-    "dev:numberbaseball": "webpack serve --config ./3.NumberBaseball/webpack.config.js"
+    "dev:numberbaseball": "webpack serve --config ./3.NumberBaseball/webpack.config.js",
+    "dev:responsecheck": "webpack serve --config ./4.ResponseCheck/webpack.config.js"
   },
   "repository": {
     "type": "git",

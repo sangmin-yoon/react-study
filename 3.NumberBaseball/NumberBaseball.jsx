@@ -30,6 +30,7 @@ const NumberBaseball = memo(() => {
       setAnswer(getNumbers());
       setTries([]);
     } else {
+      ㄷㅈ;
       const answerArray = value.split("").map((v) => parseInt(v)); // 입력값을 숫자배열로
       let strike = 0;
       let ball = 0;
