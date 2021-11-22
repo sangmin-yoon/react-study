@@ -16,7 +16,6 @@ const NumberBaseball = memo(() => {
   const [value, setValue] = useState("");
   const [answer, setAnswer] = useState(getNumbers()); // [1, 2, 3, 4]
   const [tries, setTries] = useState([]);
-
   const onSubmitForm = (e) => {
     e.preventDefault();
     if (value === answer.join("")) {
@@ -30,7 +29,6 @@ const NumberBaseball = memo(() => {
       setAnswer(getNumbers());
       setTries([]);
     } else {
-      ㄷㅈ;
       const answerArray = value.split("").map((v) => parseInt(v)); // 입력값을 숫자배열로
       let strike = 0;
       let ball = 0;
@@ -81,7 +79,10 @@ const NumberBaseball = memo(() => {
       <div>시도: {tries.length}</div>
       <ul>
         {tries.map((v, i) => (
-          <Try tryInfo={v} key={`${i + 1}차 시도`} />
+          <>
+            <Try tryInfo={v} key={`${i + 1}차 시도`} />
+            <Try tryInfo={v} key={`${i + 1}차 시도`} />
+          </>
         ))}
       </ul>
     </>
