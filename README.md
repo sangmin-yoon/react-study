@@ -19,3 +19,4 @@
 - webpack과 babel의 용도와 사용법
 - useRef를 이용한 변수 관리와 다른 변수와의 차이점
 - Class, Hooks에서의 Lifecycle
+- useReducer를 이용한 상태관리

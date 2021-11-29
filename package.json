@@ -8,7 +8,8 @@
     "dev:numberbaseball": "webpack serve --config ./3.NumberBaseball/webpack.config.js",
     "dev:responsecheck": "webpack serve --config ./4.ResponseCheck/webpack.config.js",
     "dev:rsp": "webpack serve --config ./5.RSP/webpack.config.js",
-    "dev:lotto": "webpack serve --config ./6.Lotto/webpack.config.js"
+    "dev:lotto": "webpack serve --config ./6.Lotto/webpack.config.js",
+    "dev:tiktactoe": "webpack serve --config ./7.TikTacToe/webpack.config.js"
   },
   "repository": {
     "type": "git",
