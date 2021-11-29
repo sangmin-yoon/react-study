@@ -63,10 +63,6 @@ const TikTacToe = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { tableData, turn, winner, recentCell } = state;
 
-  const onClickTable = useCallback(() => {
-    dispatch({ type: SET_WINNER, winner: "o" });
-  }, []);
-
   useEffect(() => {
     const [row, cell] = recentCell;
     if (row < 0) {
